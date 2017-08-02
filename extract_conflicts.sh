@@ -32,8 +32,8 @@ get_conflict_files(){
 devops_mail_body="Merge conflicts have been detected between ${BRANCHESOURCE} and ${BRANCHESOURCE}"
 user_mail_body="Merge conflicts have been detected between ${BRANCHESOURCE} and ${BRANCHESOURCE} because of your last commit"
 mail_subject="Merge conflicts ${BRANCHESOURCE} ${BRANCHESOURCE}"
-mail_from="jenkins@laposte.fr"
-devops_mail="ld-corp-devops-bnum@laposte.fr"
+mail_from="jenkins@gmail.com"
+devops_mail="devops@gmail.com"
 
 # merge branches
 merge_branches ${BRANCHESOURCE}
